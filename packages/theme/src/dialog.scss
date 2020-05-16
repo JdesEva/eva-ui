@@ -1,0 +1,23 @@
+.ev-dialog {
+    position: absolute;
+    background: rgba($color: #000, $alpha: 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ev-dialog-wrapper {
+      z-index: 9999;
+      background: #fff;
+      width: 600px;
+      height: 400px;
+      border-radius: 10px;
+    }
+  }
+  
